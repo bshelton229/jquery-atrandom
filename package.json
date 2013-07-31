@@ -1,0 +1,16 @@
+{
+  "name": "jquery-atRandom",
+  "version": "0.0.1",
+  "description": "JQuery plugin for picking a random element from a selector.",
+  "main": "jquery-atRandom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-uglify": "~0.2.2"
+  }
+}

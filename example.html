@@ -1,0 +1,28 @@
+<html>
+<head>
+  <title>Test</title>
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.0.min.js"></script>
+  <script src="./jquery-atRandom.js"></script>
+  <script>
+    $(function() {
+      $("ul.mylist li").atRandom(function() {
+        $(this).addClass('red').show();
+      });
+    });
+  </script>
+  <style type="text/css" media="screen">
+    .red { color: red; }
+    .hidden { display: none; }
+  </style>
+</head>
+<body>
+<h2>List</h2>
+<ul class="mylist">
+  <li class="hidden">One</li>
+  <li class="hidden">Two</li>
+  <li class="hidden">Three</li>
+  <li class="hidden">Four</li>
+  <li class="hidden">Five</li>
+</ul>
+</body>
+</html>
